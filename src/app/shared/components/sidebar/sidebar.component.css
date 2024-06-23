@@ -17,6 +17,13 @@ i {
   font-size: 25px;
 }
 
+:host::ng-deep .p-button {
+  background-color: #ffffff !important;
+  color: #ff6600 !important;
+  border: none !important;
+  margin-right: 10px;
+}
+
 :host::ng-deep {
   .p-button {
     background-color: #ffffff !important;
