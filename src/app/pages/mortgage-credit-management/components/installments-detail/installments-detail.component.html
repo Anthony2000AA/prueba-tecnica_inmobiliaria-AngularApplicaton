@@ -20,8 +20,8 @@
     <ng-template pTemplate="body" let-installment let-i="rowIndex">
         <tr>
             <td>{{ getGlobalIndex(i)}}</td>
-            <td>{{ installment.amount }}</td>
-            <td>S/. {{ installment.paymentDate }}</td>
+            <td>S/.{{ installment.amount }}</td>
+            <td>{{ installment.paymentDate }}</td>
            
             <td>
                 <ng-container *ngIf="!installment.archivePath">
