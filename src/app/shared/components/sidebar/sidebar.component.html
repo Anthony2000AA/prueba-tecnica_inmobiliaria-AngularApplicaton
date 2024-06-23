@@ -1,0 +1,13 @@
+
+<div class="container-toolbar">
+
+    <p-sidebar  [(visible)]="sidebarVisible">
+        <ng-template style="border: 2px solid red" pTemplate="header">Header Content</ng-template>
+        <ng-template pTemplate="content">Body Content</ng-template>
+        <ng-template pTemplate="footer">Footer Content</ng-template>
+    </p-sidebar>
+    <p-button (click)="sidebarVisible = true" ><i class="pi pi-bars"></i></p-button>
+
+    <h1>Reporte</h1>
+</div>
+

@@ -1,0 +1,35 @@
+.container-toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #ff6600 !important;
+}
+
+i {
+  color: #ff6600 !important;
+  font-size: 25px;
+}
+
+:host::ng-deep {
+  .p-button {
+    background-color: #ffffff !important;
+    color: #ff6600 !important;
+    border: none !important;
+    margin-right: 10px;
+  }
+  .p-button:hover {
+    background-color: #ff6600 !important;
+    color: #ffffff !important;
+    i {
+      color: #ffffff !important;
+      font-size: 20px;
+    }
+  }
+}
