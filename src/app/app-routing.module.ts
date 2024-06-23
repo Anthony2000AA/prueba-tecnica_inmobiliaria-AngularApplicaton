@@ -3,9 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { CreditReportComponent } from './pages/mortgage-credit-management/components/credit-report/credit-report.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
+  {path: '', redirectTo: '/report', pathMatch: 'full'},
 
-  {path: 'home',  component: CreditReportComponent},
+  {path: 'report',  component: CreditReportComponent},
 ];
 
 @NgModule({
