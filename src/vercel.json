@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app",
+        "use": "@vercel/node",
+        "config": {
+          "cmd": ["npm install primeng@15.4.1 --legacy-peer-deps", "npm run build"]
+        }
+      }
+    ]
+  }
+  
