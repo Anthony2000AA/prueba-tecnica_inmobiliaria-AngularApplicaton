@@ -16,7 +16,6 @@ export class CreditReportComponent {
   endDate: Date = new Date();
   searchOnPress: boolean = false;
   
-  
   mortgageCreditList: MortgageCredit[] = [];
   
   selectMortgageCreditId: number = 0;
