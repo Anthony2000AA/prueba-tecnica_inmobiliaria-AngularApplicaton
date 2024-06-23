@@ -24,19 +24,11 @@ i {
   margin-right: 10px;
 }
 
-:host::ng-deep {
-  .p-button {
-    background-color: #ffffff !important;
-    color: #ff6600 !important;
-    border: none !important;
-    margin-right: 10px;
-  }
-  .p-button:hover {
-    background-color: #ff6600 !important;
+:host::ng-deep .p-button:hover {
+  background-color: #ff6600 !important;
+  color: #ffffff !important;
+  i {
     color: #ffffff !important;
-    i {
-      color: #ffffff !important;
-      font-size: 20px;
-    }
+    font-size: 20px;
   }
 }

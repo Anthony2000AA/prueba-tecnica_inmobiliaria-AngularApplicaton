@@ -53,20 +53,19 @@
     font-weight: bold;
   }
 }
-:host::ng-deep {
-  .pagination-container .p-button {
-    background-color: white;
-    color: rgb(108, 108, 109);
-    border: 1px solid #ff6600;
-    border-radius: 3px;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .pagination-container .p-button:enabled:hover {
-    background-color: #ff6600;
-    color: white;
-  }
+
+:host::ng-deep .pagination-container .p-button {
+  background-color: white;
+  color: rgb(108, 108, 109);
+  border: 1px solid #ff6600;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+:host::ng-deep .pagination-container .p-button:enabled:hover {
+  background-color: #ff6600;
+  color: white;
 }
 
 /* LOADER*/
