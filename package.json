@@ -2,6 +2,7 @@
   "name": "optimainmobiliaria-web-application",
   "version": "0.0.0",
   "scripts": {
+    "preinstall": "npm install primeng@15.4.1 --legacy-peer-deps",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
